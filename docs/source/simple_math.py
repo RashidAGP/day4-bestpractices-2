@@ -5,20 +5,25 @@ A collection of simple math operations
 def simple_add(a,b):
     """
     Add Two numbers and return the result. 
+
     Parameters
     ----------
-    a : every type
+    a : integer
         This can be any type: integer, floating point and etc, ...
-    b : ever type 
+    b : interger
         This can be any type: integer, floating point and etc, ...
+
+    Returns
+    -------
+    x : integer
+        The result of the simple add is returned.
     See Also
-    ----------
-    lookfor, info (Nothing)
+    --------
+    lookfor, info 
 
     Examples
     ----------
-    >>> simple_add(4,7)
-        
+    >>  
         This add 4 and 7 and return 11 as a result
     """
     return a+b

@@ -1,0 +1,23 @@
+<html><head>
+<title>last_question.py</title>
+<meta name="Generator" content="htmlizer/[Twisted, version 22.1.0]" />
+<link rel="alternate" href="last_question.py" type="text/x-python" />
+
+</head>
+<body>
+<pre><span class="py-src-variable">import</span> <span class="py-src-variable">numpy</span> <span class="py-src-variable">as</span> <span class="py-src-variable">np</span>
+
+<span class="py-src-variable">from</span> <span class="py-src-variable">scipy</span>.<span class="py-src-variable">optimize</span> <span class="py-src-variable">import</span> <span class="py-src-variable">minimize_scalar</span>
+<span class="py-src-variable">from</span> <span class="py-src-variable">scipy</span>.<span class="py-src-variable">interpolate</span> <span class="py-src-variable">import</span> <span class="py-src-variable">interp1d</span>
+<span class="py-src-variable">file_1</span> = <span class="py-src-string">&quot;./I_q_IPA_exp.npy&quot;</span>
+<span class="py-src-variable">file_2</span> = <span class="py-src-string">&quot;./I_q_IPA_model.npy&quot;</span>
+
+<span class="py-src-variable">data1</span>= <span class="py-src-variable">np</span>.<span class="py-src-variable">load</span>(<span class="py-src-variable">file_1</span>)
+<span class="py-src-variable">data2</span>= <span class="py-src-variable">np</span>.<span class="py-src-variable">load</span>(<span class="py-src-variable">file_2</span>)
+<span class="py-src-string">&#x27;&#x27;&#x27;
+scipy.optimize.minimize_scalar()
+scipy.interpolate.interp1d()
+&#x27;&#x27;&#x27;</span>
+
+</pre>
+</body>
